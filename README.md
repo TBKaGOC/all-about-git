@@ -54,10 +54,10 @@ HEAD — файл с ссылкой на последний коммит.
 
 ```mermaid
   graph TD;
-      A[Создать файл] --> B[untracked]
-      B -- git add --> C[staged(tracked)]
-      C -- внести изменения в файл --> D[modified(tracked)]
-      D -- git add --> C
-      C -- git commit -m --> E[tracked]
-      E -- внести изменения в файл --> D[modified(tracked)]
+      A[Создать файл] --> B[untracked];
+      B -- git add --> C[staged(tracked)];
+      C -- внести изменения в файл --> D[modified(tracked)];
+      D -- git add --> C;
+      C -- git commit -m --> E[tracked];
+      E -- внести изменения в файл --> D[modified(tracked)];
 ```
