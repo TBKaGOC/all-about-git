@@ -53,7 +53,7 @@ HEAD — файл с ссылкой на последний коммит.
 4. modified — изменённый и не закоммеченный файл.
 
 ```mermaid
-  git status;
+  graph TD;
       A[Создать файл] --> B[untracked]
       B -- git add --> C[staged(tracked)]
       C -- внести изменения в файл --> D[modified(tracked)]
